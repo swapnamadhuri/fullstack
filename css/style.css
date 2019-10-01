@@ -1,0 +1,44 @@
+.navbar-brand{background:url("../images/sprites.png");
+    display:inline-block;
+    background-position: 0-380px;
+    width:130px;
+    height:30px;
+}
+
+.searchIcon{
+    background: url("./images/sprites.png");
+    height: 20px;
+    width:70px;
+    background-repeat: no-repeat;
+    background-position: -196px 2px;
+    position: relative;
+    z-index: 9999;
+    display: inline-flex;
+    left:-329px;
+    top:35px;
+} 
+#section1{
+    background:url("../images/pixabay1.jpg");
+    height:500px;
+    width: 100%;
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:cover;
+}
+#section1 .bg-info{
+    background:none!important;
+}
+#displayText{
+    color:white;
+    text-align: center;
+    padding-top: 70px;
+}
+input#search{
+    padding:17px 0px 30px;
+    position: relative;
+}
+.dropdown{
+    position: absolute;
+    right: 18px;
+    top: 110px;
+}
